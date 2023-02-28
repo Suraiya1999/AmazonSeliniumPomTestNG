@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UserNameandPassword">
+  <test  name="SigninTest_Three">
+    <classes>
+      <class name="com.amazon_SigninTest.SigninTest_Three"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

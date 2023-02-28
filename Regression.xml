@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression test">
+
+	<listeners>
+		<listener class-name="com.amazon_Listners.AmazonListener"></listener>
+	</listeners>
+
+	<test name="Reg Test">
+		<classes>
+			<class name="com.amazon_SigninTest.SigninTest_One" />
+			<class name="com.amazon_SigninTest.SigninTest_Two" />
+			<class name="com.amazon_SigninTest.SigninTest_Three" />
+			<!-- package name.(dot)class name-->
+			<class name="com.amazon_SigninTest.SigninTest_Four" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+                                              
